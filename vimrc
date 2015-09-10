@@ -53,5 +53,8 @@ let g:pymode_folding = 0
 let g:pymode_rope = 0
 let g:pymode_lint = 0
 
+let g:jedi#auto_initialization = 1
 let g:jedi#popup_on_dot = 0
+let g:jedi#completions_enabled = 1
 let g:jedi#popup_select_first = 0
+let g:jedi#completions_command = "<C-n>"

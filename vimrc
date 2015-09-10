@@ -46,5 +46,12 @@ noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 
+let g:pymode = 1
+let g:pymode_indent = 0
+let g:pymode_options = 0
+let g:pymode_folding = 0
+let g:pymode_rope = 0
+let g:pymode_lint = 0
+
 let g:jedi#popup_on_dot = 0
 let g:jedi#popup_select_first = 0

@@ -22,5 +22,9 @@ hi Pmenu      ctermbg=210 ctermfg=Black
 hi PmenuSel   ctermbg=7 ctermfg=Black
 hi PmenuSbar  ctermbg=11 ctermfg=Black
 hi PmenuThumb cterm=reverse
+hi pythonSelf term=bold ctermfg=5 guifg=SlateBlue
+hi pythonParameters term=bold ctermfg=5 guifg=SlateBlue
+hi pythonClass term=underline ctermfg=6 guifg=DarkCyan
+
 
 " vim: sw=2

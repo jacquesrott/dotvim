@@ -24,6 +24,7 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set modeline
+set nofoldenable
 
 set backup
 set undodir=~/.vim/undo

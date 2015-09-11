@@ -14,10 +14,10 @@ endif
 
 let colors_name = "jaqk"
 
-hi MatchParen ctermfg=Black ctermbg=14
-hi Visual     ctermbg=11
-hi Todo       ctermbg=14 ctermfg=Black
-hi Search     ctermbg=14 ctermfg=Black
+hi MatchParen ctermfg=Black ctermbg=11
+hi Visual     ctermbg=8
+hi Todo       ctermbg=11 ctermfg=Black
+hi Search     ctermbg=11 ctermfg=Black
 hi Pmenu      ctermbg=210 ctermfg=Black
 hi PmenuSel   ctermbg=7 ctermfg=Black
 hi PmenuSbar  ctermbg=11 ctermfg=Black

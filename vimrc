@@ -11,7 +11,6 @@ scriptencoding utf-8
 
 set hlsearch
 set modelines=5
-set ignorecase
 set smartcase
 set number
 set showmatch

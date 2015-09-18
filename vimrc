@@ -17,6 +17,11 @@ set showmatch
 set matchpairs=(:),{:},[:] 
 set splitbelow
 set splitright
+set scrolloff=3
+set backspace=indent,eol,start
+set showcmd
+let mapleader = ","
+set title
 
 set tabstop=8
 set expandtab

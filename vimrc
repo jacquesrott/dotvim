@@ -66,3 +66,7 @@ let g:jedi#completions_command = "<C-n>"
 
 let g:goyo_width = 120
 noremap <C-g> :Goyo<CR>
+
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+let g:airline_theme= "bubblegum"

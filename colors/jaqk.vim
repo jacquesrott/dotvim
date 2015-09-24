@@ -18,6 +18,7 @@ hi MatchParen ctermfg=Black ctermbg=11
 hi Visual     ctermbg=8
 hi Todo       ctermbg=11 ctermfg=Black
 hi Search     ctermbg=11 ctermfg=Black
+hi VertSplit  ctermbg=238 ctermfg=238
 hi Pmenu      ctermbg=210 ctermfg=Black
 hi PmenuSel   ctermbg=7 ctermfg=Black
 hi PmenuSbar  ctermbg=11 ctermfg=Black

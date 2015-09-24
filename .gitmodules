@@ -10,8 +10,8 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
-[submodule "/Users/jacques/.vim/bundle/vim-airline"]
-	path = /Users/jacques/.vim/bundle/vim-airline
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
 [submodule "bundle/goyo"]
 	path = bundle/goyo

@@ -56,6 +56,15 @@ noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 
+function! g:osx_copy_text()
+    let old_z = @z
+    normal! gv"zy
+    call system('pbcopy', @z)
+    let @z = old_z
+endfunction
+
+vnoremap <C-c> :<C-u>call g:osx_copy_text()<CR>
+
 inoremap <C-U> <C-G>u<C-U>
 
 let g:pymode = 1

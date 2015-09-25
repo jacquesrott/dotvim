@@ -14,7 +14,7 @@ set modelines=5
 set smartcase
 set number
 set showmatch
-set matchpairs=(:),{:},[:] 
+set matchpairs=(:),{:},[:]
 set splitbelow
 set splitright
 set scrolloff=3

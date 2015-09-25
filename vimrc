@@ -30,6 +30,11 @@ set softtabstop=4
 set modeline
 set nofoldenable
 
+set incsearch
+set history=1000
+set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+set complete-=i
+
 set backup
 set undodir=~/.vim/undo
 
@@ -50,6 +55,8 @@ noremap <C-h> <C-w>h
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
+
+inoremap <C-U> <C-G>u<C-U>
 
 let g:pymode = 1
 let g:pymode_indent = 0

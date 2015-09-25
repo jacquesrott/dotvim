@@ -32,6 +32,7 @@ hi SpellRare  ctermbg=225 ctermfg=Black term=reverse
 hi SpellLocal ctermbg=14 ctermfg=Black term=underline
 hi LineNr     ctermfg=235
 hi NonText    ctermfg=234
+hi Title      ctermfg=6
 
 
 " vim: sw=2

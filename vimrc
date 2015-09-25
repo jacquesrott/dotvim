@@ -94,9 +94,10 @@ let g:airline_extensions = ['tabline', 'whitespace']
 let g:syntastic_python_checkers = ['flake8']
 
 augroup pencil
-  autocmd!
-  autocmd FileType markdown,mkd call pencil#init()
-  autocmd FileType text         call pencil#init()
+    autocmd!
+    autocmd BufRead,BufNewFile,BufEnter *.md    call pencil#init()
+    autocmd BufRead,BufNewFile,BufEnter *.txt   call pencil#init()
 augroup END
+
 let g:pencil#joinspaces = 0
 let g:airline_section_x = '%{PencilMode()}'

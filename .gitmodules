@@ -22,3 +22,6 @@
 [submodule "bundle/vim-pencil"]
 	path = bundle/vim-pencil
 	url = git@github.com:reedes/vim-pencil.git
+[submodule "bundle/vim-xmark"]
+	path = bundle/vim-xmark
+	url = git@github.com:junegunn/vim-xmark.git

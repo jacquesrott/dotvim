@@ -66,6 +66,7 @@ endfunction
 vnoremap <C-c> :<C-u>call g:osx_copy_text()<CR>
 
 inoremap <C-U> <C-G>u<C-U>
+inoremap kj <ESC>
 
 let g:pymode = 1
 let g:pymode_indent = 0

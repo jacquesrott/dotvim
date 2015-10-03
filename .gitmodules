@@ -25,3 +25,6 @@
 [submodule "bundle/vim-xmark"]
 	path = bundle/vim-xmark
 	url = git@github.com:junegunn/vim-xmark.git
+[submodule "bundle/vim-json"]
+	path = bundle/vim-json
+	url = git@github.com:elzr/vim-json.git

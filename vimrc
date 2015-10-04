@@ -56,6 +56,11 @@ noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 
+noremap <Left> <nop>
+noremap <Right> <nop>
+noremap <Up> <nop>
+noremap <Down> <nop>
+
 function! g:osx_copy_text()
     let old_z = @z
     normal! gv"zy

@@ -61,14 +61,19 @@ noremap <Right> <nop>
 noremap <Up> <nop>
 noremap <Down> <nop>
 
-function! g:osx_copy_text()
-    let old_z = @z
-    normal! gv"zy
-    call system('pbcopy', @z)
-    let @z = old_z
-endfunction
+if has("unix")
+    let s:uname = system("uname -s")
+    if s:uname == "Darwin"
+        function! s:osx_copy_text()
+            let old_z = @z
+            normal! gv"zy
+            call system('pbcopy', @z)
+            let @z = old_z
+        endfunction
 
-vnoremap <C-c> :<C-u>call g:osx_copy_text()<CR>
+        vnoremap <C-c> :<C-u>call s:osx_copy_text()<CR>
+    endif
+endif
 
 inoremap <C-U> <C-G>u<C-U>
 inoremap kj <ESC>

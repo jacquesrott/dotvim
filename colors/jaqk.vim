@@ -23,9 +23,6 @@ hi Pmenu      ctermbg=210 ctermfg=233
 hi PmenuSel   ctermbg=7 ctermfg=233
 hi PmenuSbar  ctermbg=11 ctermfg=233
 hi PmenuThumb cterm=reverse
-hi pythonSelf term=bold ctermfg=5 guifg=SlateBlue
-hi pythonParameters term=bold ctermfg=5 guifg=SlateBlue
-hi pythonClass term=underline ctermfg=6 guifg=DarkCyan
 hi SpellBad   ctermbg=224 ctermfg=233 term=reverse
 hi SpellCap   ctermbg=81 ctermfg=233 term=reverse
 hi SpellRare  ctermbg=225 ctermfg=233 term=reverse

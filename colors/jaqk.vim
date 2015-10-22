@@ -27,8 +27,8 @@ hi SpellBad   ctermbg=224 ctermfg=233 term=reverse
 hi SpellCap   ctermbg=81 ctermfg=233 term=reverse
 hi SpellRare  ctermbg=225 ctermfg=233 term=reverse
 hi SpellLocal ctermbg=14 ctermfg=233 term=underline
-hi LineNr     ctermfg=235
-hi NonText    ctermfg=234
+hi LineNr     ctermfg=236
+hi NonText    ctermfg=236
 hi Title      ctermfg=6
 hi SignColumn ctermbg=233 ctermfg=255
 

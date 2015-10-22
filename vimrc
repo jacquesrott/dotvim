@@ -105,6 +105,7 @@ let g:airline_theme= "bubblegum"
 let g:airline_extensions = ['tabline', 'whitespace']
 
 let g:syntastic_python_checkers = ['flake8']
+let g:syntastic_javascript_checkers = ['jsxhint', 'jshint']
 
 augroup pencil
     autocmd!

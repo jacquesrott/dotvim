@@ -32,7 +32,8 @@ set nofoldenable
 
 set incsearch
 set history=1000
-set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+set list
+set listchars=tab:▸\ ,trail:-,extends:>,precedes:<,nbsp:+,eol:¬
 set complete-=i
 
 set backup
@@ -42,6 +43,7 @@ set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 
 set mouse=a
+
 
 autocmd BufReadPost *
     \ if line("'\"") > 1 && line("'\"") <= line("$") |

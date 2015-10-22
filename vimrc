@@ -132,4 +132,6 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType javascript set shiftwidth=2
 autocmd FileType javascript set tabstop=4
 autocmd FileType javascript set softtabstop=2
+autocmd FileType javascript set nocindent
+autocmd FileType javascript set smartindent
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS

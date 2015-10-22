@@ -33,7 +33,7 @@ set nofoldenable
 set incsearch
 set history=1000
 set list
-set listchars=tab:▸\ ,trail:-,extends:>,precedes:<,nbsp:+,eol:¬
+set listchars=tab:▸\ ,eol:¬
 set complete-=i
 
 set backup

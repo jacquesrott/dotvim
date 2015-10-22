@@ -114,3 +114,21 @@ augroup END
 
 let g:pencil#joinspaces = 0
 let g:airline_section_x = '%{PencilMode()}'
+
+" HTML
+autocmd FileType html set shiftwidth=2
+autocmd FileType html set tabstop=4
+autocmd FileType html set softtabstop=2
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+
+" CSS
+autocmd FileType css set shiftwidth=2
+autocmd FileType css set tabstop=4
+autocmd FileType css set softtabstop=2
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+
+" Javascript
+autocmd FileType javascript set shiftwidth=2
+autocmd FileType javascript set tabstop=4
+autocmd FileType javascript set softtabstop=2
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS

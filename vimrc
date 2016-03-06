@@ -65,7 +65,7 @@ noremap <Down> <nop>
 
 if has("unix")
     let s:uname = system("uname -s")
-    if s:uname == "Darwin"
+    if s:uname =~ "Darwin"
         function! s:osx_copy_text()
             let old_z = @z
             normal! gv"zy
@@ -73,7 +73,7 @@ if has("unix")
             let @z = old_z
         endfunction
 
-        vnoremap <C-c> :<C-u>call s:osx_copy_text()<CR>
+        vnoremap <C-c> :<C-u>call <SID>osx_copy_text()<CR>
     endif
 endif
 

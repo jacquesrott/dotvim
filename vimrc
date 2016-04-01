@@ -97,7 +97,7 @@ let g:jedi#smart_auto_mappings = 0
 let g:jedi#use_tabs_not_buffers = 1
 let g:jedi#show_call_signatures = 0
 
-let g:goyo_width = 120
+let g:goyo_width = 82
 noremap <C-g> :Goyo<CR>
 
 let g:airline_left_sep = ''

@@ -47,9 +47,9 @@ set mouse=a
 
 
 autocmd BufReadPost *
-    \ if line("'\"") > 1 && line("'\"") <= line("$") |
-    \   exe "normal! g`\"" |
-    \ endif
+  \ if line("'\"") > 1 && line("'\"") <= line("$") |
+  \   exe "normal! g`\"" |
+  \ endif
 
 noremap L $
 noremap H ^
@@ -65,17 +65,17 @@ noremap <Up> <nop>
 noremap <Down> <nop>
 
 if has("unix")
-    let s:uname = system("uname -s")
-    if s:uname =~ "Darwin"
-        function! s:osx_copy_text()
-            let old_z = @z
-            normal! gv"zy
-            call system('pbcopy', @z)
-            let @z = old_z
-        endfunction
+  let s:uname = system("uname -s")
+  if s:uname =~ "Darwin"
+    function! s:osx_copy_text()
+      let old_z = @z
+      normal! gv"zy
+      call system('pbcopy', @z)
+      let @z = old_z
+    endfunction
 
-        vnoremap <C-c> :<C-u>call <SID>osx_copy_text()<CR>
-    endif
+    vnoremap <C-c> :<C-u>call <SID>osx_copy_text()<CR>
+  endif
 endif
 
 let g:pymode = 1
@@ -108,9 +108,9 @@ let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
 let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 
 augroup pencil
-    autocmd!
-    autocmd BufRead,BufNewFile,BufEnter *.md    call pencil#init()
-    autocmd BufRead,BufNewFile,BufEnter *.txt   call pencil#init({'wrap': 'soft'})
+  autocmd!
+  autocmd BufRead,BufNewFile,BufEnter *.md   call pencil#init()
+  autocmd BufRead,BufNewFile,BufEnter *.txt  call pencil#init({'wrap': 'soft'})
 augroup END
 
 let g:pencil#joinspaces = 0

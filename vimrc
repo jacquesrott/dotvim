@@ -78,9 +78,6 @@ if has("unix")
     endif
 endif
 
-inoremap <C-U> <C-G>u<C-U>
-inoremap kj <ESC>
-
 let g:pymode = 1
 let g:pymode_indent = 0
 let g:pymode_options = 0

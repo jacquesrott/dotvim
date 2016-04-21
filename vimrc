@@ -78,13 +78,6 @@ if has("unix")
   endif
 endif
 
-let g:pymode = 1
-let g:pymode_indent = 0
-let g:pymode_options = 0
-let g:pymode_folding = 0
-let g:pymode_rope = 0
-let g:pymode_lint = 0
-
 let g:jedi#auto_initialization = 1
 let g:jedi#popup_on_dot = 0
 let g:jedi#completions_enabled = 1
@@ -102,9 +95,6 @@ let g:airline_right_sep = ''
 let g:airline_theme= "bubblegum"
 let g:airline_extensions = ['tabline', 'whitespace', 'syntastic']
 
-let g:syntastic_python_checkers = ['flake8']
-let g:syntastic_javascript_checkers = ['jsxhint']
-let g:syntastic_go_checkers = ['golint', 'govet', 'errcheck']
 let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 
 augroup pencil
@@ -115,36 +105,3 @@ augroup END
 
 let g:pencil#joinspaces = 0
 let g:airline_section_x = '%{PencilMode()}'
-
-" HTML
-autocmd FileType html set shiftwidth=2
-autocmd FileType html set tabstop=4
-autocmd FileType html set softtabstop=2
-autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-
-" CSS
-autocmd FileType css set shiftwidth=2
-autocmd FileType css set tabstop=4
-autocmd FileType css set softtabstop=2
-autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-
-" Javascript
-autocmd FileType javascript set shiftwidth=2
-autocmd FileType javascript set tabstop=4
-autocmd FileType javascript set softtabstop=2
-autocmd FileType javascript set nocindent
-autocmd FileType javascript set smartindent
-autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-
-" Go
-let g:go_highlight_functions = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_structs = 1
-let g:go_highlight_interfaces = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_build_constraints = 1
-
-" VimScript
-autocmd FileType vim set shiftwidth=2
-autocmd FileType vim set tabstop=4
-autocmd FileType vim set softtabstop=2

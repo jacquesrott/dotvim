@@ -99,7 +99,7 @@ let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 
 augroup pencil
   autocmd!
-  autocmd BufRead,BufNewFile,BufEnter *.md   call pencil#init()
+  autocmd BufRead,BufNewFile,BufEnter *.md   call pencil#init({'wrap': 'soft'})
   autocmd BufRead,BufNewFile,BufEnter *.txt  call pencil#init({'wrap': 'soft'})
 augroup END
 

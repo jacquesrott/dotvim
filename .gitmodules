@@ -9,7 +9,7 @@
 	url = https://github.com/klen/python-mode.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
-	url = https://github.com/plasticboy/vim-markdown.git
+	url = https://github.com/jacquesrott/vim-markdown.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline

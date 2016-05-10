@@ -1,7 +1,7 @@
 .vim
 ====
 
-Personal `.vim` file with custom colors.
+Personal `.vim` folder with custom syntax highlights.
 
 Install
 -------

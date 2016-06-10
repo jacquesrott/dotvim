@@ -107,4 +107,4 @@ let g:pencil#joinspaces = 0
 let g:airline_section_x = '%{PencilMode()}'
 
 autocmd BufRead,BufNewFile *.yml set syntax=ansible
-
+autocmd BufRead,BufNewFile *.yaml set syntax=ansible

@@ -97,12 +97,6 @@ let g:airline_extensions = ['tabline', 'whitespace', 'syntastic']
 
 let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 
-augroup pencil
-  autocmd!
-  autocmd BufRead,BufNewFile,BufEnter *.md   call pencil#init({'wrap': 'soft'})
-  autocmd BufRead,BufNewFile,BufEnter *.txt  call pencil#init({'wrap': 'soft'})
-augroup END
-
 let g:pencil#joinspaces = 0
 let g:airline_section_x = '%{PencilMode()}'
 

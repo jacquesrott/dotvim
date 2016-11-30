@@ -102,3 +102,10 @@ let g:airline_section_x = '%{PencilMode()}'
 
 autocmd BufRead,BufNewFile *.yml set syntax=ansible
 autocmd BufRead,BufNewFile *.yaml set syntax=ansible
+
+if has('gui_running')
+  colorscheme vilight
+  autocmd BufNewFile * :Goyo
+  autocmd BufRead * :Goyo
+  set fullscreen
+endif

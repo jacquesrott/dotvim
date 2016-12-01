@@ -108,4 +108,5 @@ if has('gui_running')
   autocmd BufNewFile * :Goyo
   autocmd BufRead * :Goyo
   set fullscreen
+  set guifont=Menlo:h13
 endif
